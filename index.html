@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+    </style>
+</head>
+<body>
+    <div class="layout">
+        <div class="find">
+            <input type="text" placeholder="Enter City name">
+            <button><img src="images/find.png"></button>
+        </div>
+        <div class="error">
+            <p>Invalid City name</p>
+        </div>
+        <div class="weather">
+            <img src="images/cloudy.png" class="w-icon">
+            <h1 class="temp">24°C</h1>
+            <h2 class="city">Guwahati</h2>
+            <div class="details">
+                <div class="col">
+                    <img class="humidity" src="images/icon-humid.png">
+                </div>
+                    <div>
+                        <p class="humid">50%</p>
+                        <p>Humidity</p>     
+                    </div>
+                    <div class="col">
+                        <img class="win" src="images/wind-speed.png">
+                    </div>
+                        <div>
+                            <p class="wind">6 km/h</p>
+                            <p>Wind Speed</p>     
+                        </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="index.js"></script>
+</body>
+</html>

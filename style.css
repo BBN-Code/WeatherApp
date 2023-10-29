@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background:#1e2122;
+}
+
+.layout{
+    background: #7FDBFF;
+    width: 100%;
+    color: rgb(1, 15, 28);
+    margin: 50px auto ;
+    max-width: 500px;
+    padding: 40px 45px;
+    border-radius: 18px;
+    text-align: center;
+}
+
+.find{
+    display: flex;
+    justify-content:space-evenly;
+    width: 100%;
+    align-items: center;
+}
+
+.find input {
+       padding: 10px 25px;
+       margin:20px;
+       border: none;
+       outline: none;
+       background: #c8d5cb;
+       border-radius: 25px;
+       color: #000000;
+       font-size: 16px;
+       flex: 5;
+}
+
+.find button {
+    border:none;
+    display: flex;
+    padding: 10px;
+    background-color: transparent;
+    margin-right: 8px;
+    cursor: pointer;
+}
+.w-icon{
+    width: 150px;
+    margin-top: 25px;
+}
+
+.weather h1{
+        font-size: 40px;
+        font-weight: 750;
+}
+
+.weather h2{
+    font-size: 40px;
+    font-weight: 750;
+    margin-top: -5px;
+}
+
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 50px;
+}
+.col{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    }
+
+.col img{
+    width: 55px;
+    margin-left: 5px;
+}
+
+.humid, .wind{
+    font-size: 20px;
+}
+
+.weather{
+    display: none;
+}
+
+.error{
+    text-align: center;
+    margin-top: 15px;
+    font-size: 18px;
+    color: #ea1014;
+    display: none;
+}
